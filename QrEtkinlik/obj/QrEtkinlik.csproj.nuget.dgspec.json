@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mustafa\\source\\repos\\QrEtkinlik\\QrEtkinlik\\QrEtkinlik.csproj": {}
+    "C:\\Users\\Mustafa\\OneDrive\\Belgeler\\GitHub\\QrEtkinlik\\QrEtkinlik\\QrEtkinlik.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mustafa\\source\\repos\\QrEtkinlik\\QrEtkinlik\\QrEtkinlik.csproj": {
+    "C:\\Users\\Mustafa\\OneDrive\\Belgeler\\GitHub\\QrEtkinlik\\QrEtkinlik\\QrEtkinlik.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mustafa\\source\\repos\\QrEtkinlik\\QrEtkinlik\\QrEtkinlik.csproj",
+        "projectUniqueName": "C:\\Users\\Mustafa\\OneDrive\\Belgeler\\GitHub\\QrEtkinlik\\QrEtkinlik\\QrEtkinlik.csproj",
         "projectName": "QrEtkinlik",
-        "projectPath": "C:\\Users\\Mustafa\\source\\repos\\QrEtkinlik\\QrEtkinlik\\QrEtkinlik.csproj",
+        "projectPath": "C:\\Users\\Mustafa\\OneDrive\\Belgeler\\GitHub\\QrEtkinlik\\QrEtkinlik\\QrEtkinlik.csproj",
         "packagesPath": "C:\\Users\\Mustafa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mustafa\\source\\repos\\QrEtkinlik\\QrEtkinlik\\obj\\",
+        "outputPath": "C:\\Users\\Mustafa\\OneDrive\\Belgeler\\GitHub\\QrEtkinlik\\QrEtkinlik\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Mustafa\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,20 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.8, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
